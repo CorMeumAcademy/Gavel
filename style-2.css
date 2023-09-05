@@ -1,0 +1,32 @@
+/* Start of my own CSS */
+@import url("https://documate-styles.s3-us-west-1.amazonaws.com/noheader.css");
+* {
+  font-family: Lato;
+}
+.da-page-header {
+  border-bottom: 1px solid #ffc400 !important;
+}
+.nav-link:not(.active):not(.text-muted) {
+  color: #000000 !important;
+}
+.nav-pills .nav-link:not(.active):not(.text-muted)::before {
+  border: 2px solid #000000;
+}
+.nav-pills .nav-link:not(.active):not(.text-muted)::after {
+  color: #000000;
+}
+.btn.btn-da.btn-primary {
+  background-color: #ffc400;
+  border: #ffc400;
+  border-radius: 0;
+}
+.nav-pills .nav-link {
+  border-radius: 0;
+}
+.nav.nav-pills .nav-link.active {
+  background: #ffc400;
+  border-radius: 0;
+}
+.h3#daMainQuestion {
+  font-family: Lato;
+}
